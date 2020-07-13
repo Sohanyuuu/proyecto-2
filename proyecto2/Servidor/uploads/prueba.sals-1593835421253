@@ -1,0 +1,39 @@
+CREAR TABLA Departamento( Id_departamento entero, Nombre cadena ); 
+ 
+INSERTAR EN Departamento VALORES(0,"Alta Verapaz"); 
+INSERTAR EN Departamento VALORES(1,"Baja Verapaz"); 
+
+CREAR TABLA Zona(Id_zona entero, Nombre cadena, Id_municipio entero ); 
+CREAR TABLA Municipio(Id_municipio entero, Nombre cadena); 
+INSERTAR EN Zona VALORES(0,"Zona 1",1); 
+INSERTAR EN Zona VALORES(1,"Zona 2",2); 
+INSERTAR EN Zona VALORES(2,"Zona 3",4);
+INSERTAR EN Zona VALORES(3,"Zona 4",5);
+INSERTAR EN Zona VALORES(4,"Zona 5",6);
+INSERTAR EN Zona VALORES(5,"Zona 6",7);
+INSERTAR EN Zona VALORES(6,"Zona 7",8);
+INSERTAR EN Zona VALORES(7,"Zona 8",9); 
+INSERTAR EN Zona VALORES(8,"Zona 9",10); 
+INSERTAR EN Zona VALORES(9,"Zona 10",11);
+INSERTAR EN Zona VALORES(10,"Zona 11",12);
+INSERTAR EN Zona VALORES(11,"Zona 12",13);
+INSERTAR EN Zona VALORES(12,"Zona 13",14);
+INSERTAR EN Zona VALORES(13,"Zona 14",15);
+INSERTAR EN Departamento VALORES(2,"Quiche"); 
+INSERTAR EN Departamento VALORES(3,"Huehuetenango"); 
+INSERTAR EN Departamento VALORES(4,"Xela"); 
+INSERTAR EN Departamento VALORES(5,"Peten"); 
+INSERTAR EN Departamento VALORES(6,"Chiquimula"); 
+INSERTAR EN Departamento VALORES(7,"Progreso"); 
+INSERTAR EN Departamento VALORES(8,"Izabal"); 
+INSERTAR EN Departamento VALORES(9,"Quetzaltenango"); 
+INSERTAR EN Municipio VALORES(1,"Chinautla"); 
+INSERTAR EN Municipio VALORES(2,"Mixco"); 
+INSERTAR EN Municipio VALORES(3,"San rafael"); 
+INSERTAR EN Municipio VALORES(4,"Castillo"); 
+
+ELIMINAR DE Zona donde Id_zona = 4;
+
+ACTUALIZAR Zona ESTABLECER (Nombre="Alejandro") DONDE Id_zona < 4; 
+
+SELECCIONAR Zona.Nombre como Zona,Departamento.Nombre como Departamento, Municipio.Nombre como Muni DE Zona, Departamento, Municipio DONDE Zona.Id_zona=Departamento.Id_departamento Y Departamento.Id_departamento=Municipio.Id_municipio;

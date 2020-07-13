@@ -1,0 +1,57 @@
+class Program
+    {    
+    	int b=1;
+        int c;
+        
+        void Main()
+        {
+        	c=21;
+            Console.WriteLine("Hello World!");
+            metodo();
+            if(a>=0 || b<=2){
+                Console.WriteLine("b mayor que a");
+                if(b==1){
+                	Console.WriteLine("otro if");
+                }else if(b==0){
+                	Console.WriteLine("else if");
+                }
+            }else{
+            	Console.WriteLine("else");
+            }
+            int a=1;
+            
+            switch(a){
+            	case 1:
+            		Console.WriteLine("swtich case1");
+            	break;
+            	default:
+            		Console.WriteLine("swtich default");
+            	break;
+            }
+            
+            while(a){
+            	Console.WriteLine("switch");
+            }
+            
+            do {
+				Console.WriteLine("el valor de a es: " + a);
+			} while(a<=5);
+            
+            for (a=0; a<10; a++){ 
+            	Console.Write("el valor de a es: " + a);
+			}
+            
+            //comentario
+        }
+        
+        void prueba(int a){
+        	Console.WriteLine('prueba html');
+        }
+        
+        propiedad(b);
+        
+        String prueb(){
+        	Console.WriteLine("hola mundo");
+        }
+        
+    }

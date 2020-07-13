@@ -1,0 +1,19 @@
+CREAR TABLA Departamento( Id_departamento entero, Nombre cadena ); 
+ 
+INSERTAR EN Departamento VALORES(0,"Alta Verapaz"); 
+INSERTAR EN Departamento VALORES(1,"Baja Verapaz"); 
+
+CREAR TABLA Zona(Id_zona entero, Nombre cadena, Id_municipio entero ); 
+INSERTAR EN Zona VALORES(0,"Zona 1",1); 
+INSERTAR EN Zona VALORES(1,"Zona 2",2); 
+INSERTAR EN Zona VALORES(2,"Zona 3",3);
+INSERTAR EN Zona VALORES(3,"Zona 4",3);
+INSERTAR EN Zona VALORES(4,"Zona 5",3);
+INSERTAR EN Zona VALORES(5,"Zona 6",3);
+INSERTAR EN Zona VALORES(6,"Zona 7",3);
+
+ELIMINAR DE Zona donde Id_zona = 4;
+
+ACTUALIZAR Zona ESTABLECER (Nombre="Alejandro") DONDE Id_zona < 4; 
+
+SELECCIONAR Zona.Nombre como Zona,Departamento.Nombre como Departamento DE Zona, Departamento DONDE Zona.Id_zona=Departamento.Id_departamento Y Zona.Id_zona=Departamento.Id_departamento;
