@@ -1,0 +1,129 @@
+/*****************************************************************************************************************\
+ 	Archivo de entrada de prueba. Este archivo esta pensado para que se genere poco a poco un archivo que lo contenga todo. Absolutamente todo. Probando en especial el tema de las sentencias anidadas.
+******************************************************************************************************************/
+// Esperemos que todo salga bien uwu
+
+class ClaseTotal{
+
+ 	/* ------------------------- DECLARACION DE VARIABLES GLOBALES -------------------------*/
+ 	int a = (( 3 - 1 ) * ( 12  +  28 )) / 3 - 333/111; // A ver, a= 71/3 = 23.66666666
+ 	double num1, num2, num3, num4, num5;
+ 	string /*"Prueba sintactico error"*/ saludo = "Saludos amigos uwu " + 'A ver que tal sale esto GG';
+ 	/* ------------------------- FIN DECLARACION DE VARIABLES GLOBALES -------------------------*/
+
+	// Cosas aritmeticas
+	double suma(int a, double b){
+  	Console.Write('<HTML>');
+     	return a + b;
+	}
+	double resta(int a, double b){
+        	Console.Write('<HEAD>');
+     	return a - b;
+	}
+	double multi(int a, double b){
+              	Console.Write('<TITLE>Mi Pagina</TITLE>');
+     	return a * b;
+	}
+	double DIVision(int a, double b){
+  	Console.Write('</HEAD>');
+     	return a / b;
+	}
+
+	// Sentencias de impresion
+	void imprimirHTML(){
+     	Console.Write('<BODY style = "background:yellow">');
+     	// Eso fue la impresion de un html
+     	return;
+	}
+
+	void imprimirNormal(string impresion){
+  	Console.Write('<H1>[OLC1]Practica 1</H1>');
+     	Console.Write(impresion);
+     	if((!!!!!!!!!!!!!a >= num1) || true && (num2+num3+num4) == false){
+          	// Los void pueden o no retornar algo. Al igual que las funciones
+      	Console.Write('<DIV style="background: white">');
+     	} else {
+      	Console.Write('<H1>Encabezado h2</H1>');
+          	return;
+     	}
+	}
+
+	void menu(){
+      	Console.Write("-!-!-!-!-!-!' ' MENU ' '!-!-!-!-!-!- \n");
+      	Console.Write("\tOpcion 1 \n");
+      	Console.Write("\tOpcion 2 \n");
+      	Console.Write("\tOpcion 3 \n");
+      	Console.Write("\tOpcion 4 \n");
+      	Console.Write('<P>');
+      	String reader = entrada;
+      	Console.Write('Este es un bloque<BR>');
+      	switch(reader){
+                	case "No quiero entrar" + num1:
+                	Console.Write('de texto, para una<BR>');
+                          	Console.Write("Ingrese valor valido");
+                	case "true" > true:
+                	Console.Write('</P>');
+                          	Console.Write("Ingrese valor valido");
+                          	BReak;
+                	case 1:
+                	Console.Write('<BR>');
+                          	Opcion1();
+                          	if(num1 != 0){
+                            	Console.Write('</DIV>');
+                                    	num1 = 0;
+                                    	double prueba = "Error semantico gg";
+                                    	Console.Write("En esta linea hay un error semantico" != hola);
+                          	}else if("Hola" && GG){
+                            	Console.Write('<DIV style="background: skyblue">');
+                                    	while(true){
+                                      	Console.Write('<H1>Llenar los campos</H1>');
+                                              	for(int i = 12-1; i < num5; i++){
+                                                	Console.Write('<LABEL>Ingrese su nomBRe:</LABEL>');
+                                                        	if(i == 2){
+                                                          	Console.Write('<BR>');
+                                                                  	BReak;
+                                                        	}
+                                                        	Console.Write('<INPUT>');
+                                              	}
+                                              	BReak;
+
+                                              	Console.Write('<BR>');
+                                    	}
+                          	}else if(Prueba){
+                            	Console.Write('<BUTTON>Mi boton</BUTTON>');
+                                    	do{
+                                      	Console.Write('</DIV>');
+                                              	int arduino = "Arqui esta saliendo sola :v";
+                                              	Console.Write(!arduino);                                             	 
+                                    	}while(true);
+                          	}else{
+                            	Console.Write('</BODY>');
+                                    	NoEntro(param, param2, param, true * false);
+                          	}
+                          	BReak;
+                	case 2:
+                	Console.Write('</HTML>');
+                          	Opcion2(num1, num2);
+                          	BReak;
+                	case 3:
+                          	switch(num1 + num2 * num3){
+                                    	case 1:
+                                              	Console.Write("Opcion 3 y la operacion es 1");
+                                    	default:
+                                              	Opcion3No1(num1, num2);
+                                              	BReak;
+                          	}
+                          	// Puede o no venir un BReak :c
+                          	//BReak;
+                	default:
+                          	Console.Write("Default");
+                          	BReak;
+      	}
+ 	}
+
+ 	void main(){
+      	suma(num1, num2);
+      	resta(12+23121 / 2, hola, "Hola");
+      	FF();
+ 	}
+}
